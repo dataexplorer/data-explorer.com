@@ -1,0 +1,75 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+
+<asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
+    <title>Data Explorer Features</title>
+    <meta name="description" content="Features of the data explorer." />
+    <meta name="keywords" content="data explorer, data visualization, data analysis, features" />
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <article>
+        <header>
+            <h1>Features</h1>    
+        </header>
+        <section>
+            <a href="/content/images/import-feature.png">
+                <img class="thumbnail" src="/content/images/import-feature-thumbnail.png" alt="Screenshot of data explorer import features." />
+            </a>
+            <h2>Import</h2>
+            <ul>
+                <li>Import your data from CSV (Comma-Separated Values) files and SQL Server databases tables.</li> 
+                <li>Automatically detect data types and semantic types of your data.</li>
+                <li>Transform your data using various data transformations during the import process.</li>
+            </ul>
+        </section>
+        <hr/>
+        <section>
+             <a href="/content/images/visualization-feature.png">
+                <img class="thumbnail" src="/content/images/visualization-feature-thumbnail.png" alt="Screenshot of data explorer visualization features." />
+            </a>
+            <h2>Visualize</h2>
+            <ul>
+                <li>Visualize your data by assigning data attributes to location, size, color, and shape.</li>
+                <li>Add labels, images, hyperlinks, and draw paths between data relationships.</li>
+                <li>Drag and drop columns on to the view surface to automatically visualize data.</li>
+            </ul>  
+        </section>
+        <hr/>
+        <section>
+             <a href="/content/images/navigation-feature.png">
+                <img class="thumbnail" src="/content/images/navigation-feature-thumbnail.png" alt="Screeenshot of data explorer navigation features." />
+            </a>
+            <h2>Navigate</h2>
+            <ul>
+                <li>Navigate through your data using the interactive navigation tree.</li>
+                <li>Pan and zoom to areas of interest using your mouse or keyboard.</li>
+            </ul>
+        </section>
+        <hr/>
+        <section>
+             <a href="/content/images/filter-feature.png">
+                <img class="thumbnail" src="/content/images/filter-feature-thumbnail.png" alt="Screenshot of data explorer filter features."/>
+            </a>
+            <h2>Filter</h2>
+            <ul>
+                <li>Filter your data using user-friendly and interactive filters.</li>
+                <li>Add filters using drag and drop support.</li>
+            </ul>
+        </section>
+        <hr/>
+        <section>
+             <a href="/content/images/share-feature.png">
+                <img class="thumbnail" src="/content/images/share-feature-thumbnail.png" alt="Screenshot of data explorer sharing features." />
+            </a>
+            <h2>Share</h2>
+            <ul>
+                <li>Select data of interest to copy and paste into other applications.</li>
+                <li>Copy and paste images of your visualizations into other applications.</li>
+                <li>Save your data exploration projects to be viewed later or shared with others.</li>
+            </ul> 
+        </section>
+        <hr />
+        <!-- <p>To request additional features, please visit our <%: Html.ActionLink("feature request page", "request", "features") %>.</p>-->
+        <p>To request additional features, please email <a href="mailto:support@data-explorer.com">support@data-explorer.com</a>.
+    </article>    
+</asp:Content>
