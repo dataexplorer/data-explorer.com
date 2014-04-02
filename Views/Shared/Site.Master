@@ -30,8 +30,8 @@
                 <li><%: Html.ActionLink("Features", "Index", "features")%></li>
                 <li><%: Html.ActionLink("Download", "Index", "download")%></li>
                 <li><%: Html.ActionLink("Data", "Index", "data")%></li>
-                <li><%: Html.ActionLink("Support", "Index", "support")%></li>
                 <li><a href="https://github.com/dataexplorer/dataexplorer" target="blank">Project</a></li>
+                <li><%: Html.ActionLink("Support", "Index", "support")%></li>
                 <li><%: Html.ActionLink("About", "Index", "about")%></li>
             </ul>
         </nav>
