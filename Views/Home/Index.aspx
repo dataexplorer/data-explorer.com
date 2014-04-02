@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
 <asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
-    <title>Data Explorer - Interactive Data Visualization Tool</title>
+    <title>Data Explorer - Open-Source Interactive Data-Visualization Tool</title>
     <meta name="description" content="Data Explorer is an open-source interactive data visualization tool for exploratory data analysis." />
     <meta name="keywords" content="data explorer, open source, interactive, data visualization, data analysis," />
 </asp:Content>
