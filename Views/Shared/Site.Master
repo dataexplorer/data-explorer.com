@@ -31,23 +31,14 @@
                 <li><%: Html.ActionLink("Download", "Index", "download")%></li>
                 <li><%: Html.ActionLink("Data", "Index", "data")%></li>
                 <li><%: Html.ActionLink("Support", "Index", "support")%></li>
+                <li><a href="https://github.com/dataexplorer/dataexplorer" target="blank">Project</a></li>
                 <li><%: Html.ActionLink("About", "Index", "about")%></li>
             </ul>
         </nav>
     </header>  
     <asp:ContentPlaceHolder ID="MainContent" runat="server" />
     <footer>
-        <nav>
-            <ul id="Ul1">
-                <li><%: Html.ActionLink("Home", "Index", "home")%></li>
-                <li><%: Html.ActionLink("Features", "Index", "features")%></li>
-                <li><%: Html.ActionLink("Download", "Index", "download")%></li>
-                <li><%: Html.ActionLink("Data", "Index", "data")%></li>
-                <li><%: Html.ActionLink("Support", "Index", "support")%></li>
-                <li><%: Html.ActionLink("About", "Index", "about")%></li>
-            </ul>
-        </nav>
-        <p>© 2013 Matthew Renze</p>
+        <p>© 2014 Matthew Renze</p>
     </footer>
 </body>
 </html>

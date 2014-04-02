@@ -3,7 +3,7 @@
 <asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Data Explorer Feature Request</title>
     <meta name="description" content="Request new features for the data explorer." />
-    <meta name="keywords" content="data explorer, data visualization, data analysis, features" />
+    <meta name="keywords" content="data explorer, open source, interactive, data visualization, data analysis, features" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

@@ -26,6 +26,13 @@ a:hover
     color: #3390b1;
 }
 
+p.button
+{
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+}
+
 a.button, 
 form input[type=submit]
 {

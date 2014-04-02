@@ -3,7 +3,7 @@
 <asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Data Explorer Features</title>
     <meta name="description" content="Features of the data explorer." />
-    <meta name="keywords" content="data explorer, data visualization, data analysis, features" />
+    <meta name="keywords" content="data explorer, open source, interactive, data visualization, data analysis, features" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -17,7 +17,7 @@
             </a>
             <h2>Import</h2>
             <ul>
-                <li>Import your data from CSV (Comma-Separated Values) files and SQL Server databases tables.</li> 
+                <li>Import your data from CSV (Comma-Separated Values) files.</li> 
                 <li>Automatically detect data types and semantic types of your data.</li>
                 <li>Transform your data using various data transformations during the import process.</li>
             </ul>
@@ -30,7 +30,7 @@
             <h2>Visualize</h2>
             <ul>
                 <li>Visualize your data by assigning data attributes to location, size, color, and shape.</li>
-                <li>Add labels, images, hyperlinks, and draw paths between data relationships.</li>
+                <li>Add labels, images, and hyperlinks to your data points.</li>
                 <li>Drag and drop columns on to the view surface to automatically visualize data.</li>
             </ul>  
         </section>
@@ -52,8 +52,8 @@
             </a>
             <h2>Filter</h2>
             <ul>
-                <li>Filter your data using user-friendly and interactive filters.</li>
-                <li>Add filters using drag and drop support.</li>
+                <li>Filter your data using user-friendly interactive filters.</li>
+                <li>Add filters with ease by using the navigation tree.</li>
             </ul>
         </section>
         <hr/>

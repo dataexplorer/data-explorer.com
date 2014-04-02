@@ -3,7 +3,7 @@
 <asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Data Explorer Data</title>
     <meta name="description" content="Sample data for use with Data Explorer." />
-    <meta name="keywords" content="data explorer, data visualization, data analysis, data set, dataset" />
+    <meta name="keywords" content="data explorer, open source, interactive, data visualization, data analysis, data set, dataset" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

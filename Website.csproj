@@ -136,6 +136,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Downloads\Release\install.htm" />
+    <Content Include="Content\Downloads\Release\setup.exe" />
     <Content Include="Content\Images\data-explorer-screenshot-medium.png" />
     <Content Include="Content\Images\data-explorer-screenshot.png" />
     <Content Include="Content\Images\data-explorer-thumbnail.png" />
@@ -238,7 +240,23 @@
       <DependentUpon>Model.edmx</DependentUpon>
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
-    <Content Include="Content\Downloads\Data Explorer v0.4.msi" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.application" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.Application.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.Domain.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.exe.config.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.exe.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.exe.manifest" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.Infrastructure.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.Persistence.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\DataExplorer.Presentation.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\Ninject.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\Ninject.Extensions.Conventions.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\Xceed.Wpf.AvalonDock.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\Xceed.Wpf.AvalonDock.Themes.Aero.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\Xceed.Wpf.AvalonDock.Themes.Expression.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\Xceed.Wpf.AvalonDock.Themes.Metro.dll.deploy" />
+    <Content Include="Content\Downloads\Release\Application Files\DataExplorer_0_1_0_0\Xceed.Wpf.AvalonDock.Themes.VS2010.dll.deploy" />
+    <Content Include="Content\Downloads\Release\DataExplorer.application" />
     <None Include="Properties\PublishProfiles\Default.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
@@ -252,7 +270,6 @@
     <Content Include="Views\About\Index.aspx" />
     <Content Include="Views\Data\Index.aspx" />
     <Content Include="Views\Download\Index.aspx" />
-    <Content Include="Views\Download\Signup.aspx" />
     <Content Include="Views\Download\Updates.aspx" />
     <Content Include="Views\Features\Index.aspx" />
     <Content Include="Views\Features\Request.aspx" />
@@ -288,6 +305,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Community\" />
+    <Folder Include="Views\Project\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -3,7 +3,7 @@
 <asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Data Explorer Updates</title>
     <meta name="description" content="Check for data explorer software updates." />
-    <meta name="keywords" content="data explorer, data visualization, data analysis, updates" />
+    <meta name="keywords" content="data explorer, open source, interactive, data visualization, data analysis, updates" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

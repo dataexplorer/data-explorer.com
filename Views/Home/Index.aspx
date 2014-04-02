@@ -2,8 +2,8 @@
 
 <asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Data Explorer - Interactive Data Visualization Tool</title>
-    <meta name="description" content="Data Explorer is an interactive data visualization tool for exploratory data analysis." />
-    <meta name="keywords" content="data explorer, data visualization, data analysis" />
+    <meta name="description" content="Data Explorer is an open-source interactive data visualization tool for exploratory data analysis." />
+    <meta name="keywords" content="data explorer, open source, interactive, data visualization, data analysis," />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -17,7 +17,7 @@
         <br />
         <p class="medium">Visualize and interact with your data using a simple, yet powerful, user interface.</p>     
         <br />
-        <%: Html.ActionLink("Download Preview", "Index", "download", new object {}, new {@class = "button"}) %>
+        <a class="button" href="/content/downloads/release/DataExplorer.application">Download</a>
         <br />
         <br />
         <br />
