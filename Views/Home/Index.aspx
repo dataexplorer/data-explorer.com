@@ -17,7 +17,7 @@
         <br />
         <p class="medium">Visualize and interact with your data using a simple, yet powerful, user interface.</p>     
         <br />
-        <a class="button" href="/content/downloads/release/DataExplorer.application">Download</a>
+        <a class="button" href="/download">Download</a>
         <br />
         <br />
         <br />
