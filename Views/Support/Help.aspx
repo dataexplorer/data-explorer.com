@@ -12,6 +12,6 @@
             <h1>Help</h1>    
         </header>
         <p>Coming soon...</p>
-        <p>In the meantime, please email support questions to <a href="mailto:support@data-explorer.com">support@data-explorer.com</a></p>
+        <p>In the meantime, please see our <a href="/support">support pages</a> or email support questions to <a href="mailto:support@data-explorer.com">support@data-explorer.com</a></p>
     </article>
 </asp:Content>

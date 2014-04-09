@@ -290,6 +290,9 @@
     <Content Include="Views\Features\Index.aspx" />
     <Content Include="Views\Features\Request.aspx" />
     <Content Include="Views\Support\Help.aspx" />
+    <Content Include="Views\Support\Issues.aspx" />
+    <Content Include="Views\Support\Faq.aspx" />
+    <Content Include="Views\Support\Tutorial.aspx" />
     <Content Include="Views\Support\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
