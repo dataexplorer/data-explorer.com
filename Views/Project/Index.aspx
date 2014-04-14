@@ -19,7 +19,7 @@
         </p>
         <p>
             Our mission is to create a free software tool that will allow non-technical users to explore their data in highly visual and interactive ways.
-            Our hope is that this software and a community of like-minded individuals will help increase data literacy within our society as a whole.
+            Our hope is that this software, and it's community of like-minded individuals, will help increase data literacy within our society as a whole.
         </p>
         <p>
             You can learn more about the project by clicking on the links below:
@@ -27,7 +27,7 @@
         <%: Html.ActionLink("Project Status", "Status", "project")%>
         <br/>
         <br/>
-        <a href="https://github.com/dataexplorer/dataexplorer/blob/master/LICENSE.md" target="blank">License</a>
+        <a href="https://github.com/dataexplorer/dataexplorer/blob/master/LICENSE.md" target="blank">Open-Source License</a>
         <br/>
         <br/>
         <a href="https://github.com/dataexplorer/dataexplorer" target="blank">Source Code</a>

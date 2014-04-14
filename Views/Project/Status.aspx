@@ -20,7 +20,7 @@
         </p>
         <br/>
         <p>
-            The next release v0.2.0 is scheduled for 07/01/2014
+            The next release, v0.2.0, is scheduled for 07/01/2014
         </p>
     </article>    
 </asp:Content>
