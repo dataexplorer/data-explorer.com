@@ -21,7 +21,7 @@
         </p>
         <p>System Requirements:
             <ul>
-                <li><em>Operating System:</em> Microsoft Windows XP, Windows Vista, Window 7, Windows 8 </li>
+                <li><em>Operating System:</em> Microsoft Windows Vista, Window 7, Windows 8</li>
                 <li><em>Display:</em> 1024x768 pixel resolution or higher, 16- or 32-bit color</li>
                 <li>Microsoft .NET Framework 4.0</li>
             </ul>
