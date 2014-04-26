@@ -3,3 +3,4 @@ obj
 *.suo
 *.user
 *.DotSettings
+web.config
