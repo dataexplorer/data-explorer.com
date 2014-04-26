@@ -12,10 +12,5 @@ namespace Website.Controllers
         {
             return View();
         }
-
-        public ActionResult Status()
-        {
-            return View();
-        }
     }
 }

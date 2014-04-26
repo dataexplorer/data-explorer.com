@@ -8,9 +8,6 @@ namespace Website.Controllers
 {
     public class DataController : Controller
     {
-        //
-        // GET: /Data/
-
         public ActionResult Index()
         {
             return View();

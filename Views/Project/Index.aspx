@@ -11,32 +11,66 @@
         <header>
             <h1>Project</h1>    
         </header>
-         <p>Data Explorer is an open-source software project, which means it's both: 
+         <p>Data Explorer is a free open-source software project, which means: 
             <ul>
-                <li>Free, as in beer, meaning anyone can use the software without cost.</li>
-                <li>Free, as in speech, meaning anyone can view the source code, learn from it, modify it, or redistribute it.</li>
+                <li>Anyone can use the software free of charge.</li>
+                <li>Anyone can view the source code, learn from it, modify it, or redistribute it.</li>
             </ul>
         </p>
+    </article>
+    <br/>
+    <hr/>
+    <br/>
+    <article>
+        <header>
+            <h1>Mission</h1>    
+        </header>
         <p>
-            Our mission is to create a free software tool that will allow non-technical users to explore their data in highly visual and interactive ways.
+            Our mission is to create a free open-source software tool that will allow anyone to explore their data in highly visual and interactive ways.
             Our hope is that this software, and it's community of like-minded individuals, will help increase data literacy within our society as a whole.
         </p>
+    </article>
+    <br/>
+    <hr/>
+    <br/>
+     <article>
+        <header>
+            <h1>Project Status</h1>    
+        </header>
+        <p>
+            Below is the current status of the project:<br/>
+
+            <ul>
+                <li><a href="https://github.com/dataexplorer/dataexplorer/releases/tag/v0.1.0" target="blank">04/01/2014 - v0.1.0 - Initial public release</a></li>
+            </ul>
+        </p>
+        <br/>
+        <p>
+            The next release, v0.2.0, is scheduled for 07/01/2014
+        </p>
+    </article>
+    <br/>
+    <hr/>
+    <br/>  
+    <article>
+        <header>
+            <h1>Learn More</h1>    
+        </header>
         <p>
             You can learn more about the project by clicking on the links below:
         </p>
-        <%: Html.ActionLink("Project Status", "Status", "project")%>
-        <br/>
-        <br/>
-        <a href="https://github.com/dataexplorer/dataexplorer/blob/master/LICENSE.md" target="blank">Open-Source License</a>
+        <a href="https://github.com/dataexplorer/dataexplorer/blob/master/LICENSE.md" target="blank">Open-Source Software License</a>
         <br/>
         <br/>
         <a href="https://github.com/dataexplorer/dataexplorer" target="blank">Source Code</a>
         <br/>
         <br/>
-        <a href="https://github.com/dataexplorer/datasets" target="blank">Data Sets</a>
+        <a href="https://github.com/dataexplorer/datasets/blob/master/License.md" target="blank">Creative Commons License for Data Sets</a>
         <br/>
+        <br/>
+        <a href="https://github.com/dataexplorer/datasets" target="blank">Source for Data Sets</a>
         <br/>
         <br/>
         <p>For any additional project questions, please email <a href="mailto:support@data-explorer.com">support@data-explorer.com</a></p>
-    </article>    
+    </article>           
 </asp:Content>

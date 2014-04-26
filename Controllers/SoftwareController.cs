@@ -6,17 +6,19 @@ using System.Web.Mvc;
 
 namespace Website.Controllers
 {
-    public class FeaturesController : Controller
+    public class SoftwareController : Controller
     {
-        //
-        // GET: /Features/
-
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Request()
+        public ActionResult Download()
+        {
+            return View();
+        }
+
+        public ActionResult ThankYou()
         {
             return View();
         }

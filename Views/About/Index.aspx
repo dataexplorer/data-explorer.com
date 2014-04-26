@@ -13,7 +13,7 @@
         </header>
         <iframe class="right" width="420" height="315" src="//www.youtube.com/embed/ZOBfEbhkwyQ" frameborder="0" allowfullscreen></iframe>
         <p>
-            Data Explorer is a open-source interactive data-visualization tool that allows you to explore your data in highly interactive ways. 
+            Data Explorer is a free open-source interactive data-visualization tool for everyone.  It allows you to explore your data in highly interactive ways. 
             It is a simple, yet powerful, tool for exploratory data analysis.
         </p>
         <p>

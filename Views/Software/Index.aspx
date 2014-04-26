@@ -7,6 +7,19 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <article class="center">
+        <header>
+            <h1>Software</h1>    
+        </header>
+        <p class="medium">Data Explorer is a free open-source interactive data-visualization tool for everyone.</p> 
+        <br />
+        <br />
+        <iframe width="640" height="480" src="//www.youtube.com/embed/j-DdkkOg5Ck" frameborder="0" allowfullscreen>            
+        </iframe>
+    </article>
+    <br />
+    <hr />
+    <br />
     <article>
         <header>
             <h1>Features</h1>    
@@ -24,7 +37,7 @@
         </section>
         <hr/>
         <section>
-             <a href="/content/images/visualization-feature.png">
+                <a href="/content/images/visualization-feature.png">
                 <img class="thumbnail" src="/content/images/visualization-feature-thumbnail.png" alt="Screenshot of data explorer visualization features." />
             </a>
             <h2>Visualize</h2>
@@ -36,7 +49,7 @@
         </section>
         <hr/>
         <section>
-             <a href="/content/images/navigation-feature.png">
+                <a href="/content/images/navigation-feature.png">
                 <img class="thumbnail" src="/content/images/navigation-feature-thumbnail.png" alt="Screeenshot of data explorer navigation features." />
             </a>
             <h2>Navigate</h2>
@@ -47,7 +60,7 @@
         </section>
         <hr/>
         <section>
-             <a href="/content/images/filter-feature.png">
+                <a href="/content/images/filter-feature.png">
                 <img class="thumbnail" src="/content/images/filter-feature-thumbnail.png" alt="Screenshot of data explorer filter features."/>
             </a>
             <h2>Filter</h2>
@@ -58,7 +71,7 @@
         </section>
         <hr/>
         <section>
-             <a href="/content/images/share-feature.png">
+                <a href="/content/images/share-feature.png">
                 <img class="thumbnail" src="/content/images/share-feature-thumbnail.png" alt="Screenshot of data explorer sharing features." />
             </a>
             <h2>Share</h2>
@@ -68,8 +81,12 @@
                 <li>Save your data exploration projects to be viewed later or shared with others.</li>
             </ul> 
         </section>
-        <hr />
-        <!-- <p>To request additional features, please visit our <%: Html.ActionLink("feature request page", "request", "features") %>.</p>-->
-        <p>To request additional features, please email <a href="mailto:support@data-explorer.com">support@data-explorer.com</a>.
-    </article>    
+    </article>
+    <br />
+    <hr />
+    <br />
+    <article class="center">
+        <br />
+        <a class="button" href="/software/download">Download Data Explorer Today!</a>
+    </article>        
 </asp:Content>

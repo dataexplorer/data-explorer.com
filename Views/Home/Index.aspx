@@ -11,13 +11,14 @@
         <header>
             <h1 class="center">Explore your data the quick and easy way.</h1>    
         </header>
+        <br />
         <iframe width="640" height="480" src="//www.youtube.com/embed/j-DdkkOg5Ck" frameborder="0" allowfullscreen>
             
         </iframe>
         <br />
         <p class="medium">Visualize and interact with your data using a simple, yet powerful, user interface.</p>     
         <br />
-        <a class="button" href="/download">Download</a>
+        <a class="button" href="/software/download">Download</a>
         <br />
         <br />
         <br />

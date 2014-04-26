@@ -12,21 +12,34 @@
         <header>
             <h1>Download</h1>    
         </header>
-        <p class="button">Data Explorer v0.1.0 &nbsp;<a class="button" href="/content/downloads/release/DataExplorer.application">Download</a></p>
+        <p class="button">Data Explorer v0.1.0 &nbsp;<a class="button" href="javascript:download();" >Download</a></p>
         <p>Please note that this software is still in development.  
             <ul>
                 <li>If you encounter a bug please email <a href="mailto:support@data-explorer.com">support@data-explorer.com</a>. </li> 
-                <li>If you would like to request a feature, please visit our <%: Html.ActionLink("feature request page", "request", "features") %>.</li>
+                <li>If you would like to request a feature, please visit our <%: Html.ActionLink("feature request page", "request", "software") %>.</li>
             </ul>
         </p>
-        <p>System Requirements:
-            <ul>
-                <li><em>Operating System:</em> Microsoft Windows Vista, Window 7, Windows 8</li>
-                <li><em>Display:</em> 1024x768 pixel resolution or higher, 16- or 32-bit color</li>
-                <li>Microsoft .NET Framework 4.0</li>
-            </ul>
-        </p>
+    </article>
+    <br />
+    <hr />
+    <br />
+        <article>
+        <header>
+            <h1>System Requirements</h1>    
+        </header>
+        <ul>
+            <li><em>Operating System:</em> Microsoft Windows Vista, Window 7, Windows 8</li>
+            <li><em>Display:</em> 1024x768 pixel resolution or higher, 16- or 32-bit color</li>
+            <li>Microsoft .NET Framework 4.0</li>
+        </ul>
         <br/>
         <br/>
     </article>
+    <script type="text/javascript">
+        function download() {
+            var url = "/content/downloads/release/DataExplorer.application";
+            window.open(url);
+            document.location.href = "/software/thankyou";
+        }
+    </script>
 </asp:Content>
