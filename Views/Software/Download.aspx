@@ -20,7 +20,7 @@
             </ul>
     </article>
     <hr />
-        <article>
+    <article>
         <header>
             <h1>System Requirements</h1>    
         </header>

@@ -26,7 +26,7 @@
         <%: Html.ActionLink("FAQ", "Index", "support")%>
         <br/>
         <br/>
-        <a href="https://groups.google.com/forum/#!forum/data-explorer" target="blank">Forums</a>
+        <a href="https://groups.google.com/forum/#!forum/data-explorer" target="blank">Discussion Forums</a>
         <br/>
         <br/>
     </article>

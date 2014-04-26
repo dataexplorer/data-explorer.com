@@ -25,7 +25,7 @@
         </header>
         <p>
             Our mission is to create a free open-source software tool that will allow anyone to explore their data in highly visual and interactive ways.
-            Our hope is that this software, and it's community of like-minded individuals, will help increase data literacy within our society as a whole.
+            Our hope is that this software, and its community of like-minded individuals, will help increase data literacy within our society as a whole.
         </p>
     </article>
     <hr/>

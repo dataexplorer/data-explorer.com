@@ -24,7 +24,7 @@
         </header>
         <p class="medium">Become a part of the Data Explorer community!
         <br/>
-        <br/>To join our community and recieve our monthly email newsletter, please fill out the form below.</p>
+        <br/>To join our community and receive our monthly email newsletter, please fill out the form below.</p>
         <section>
             <% using(Html.BeginForm()) { %>
 

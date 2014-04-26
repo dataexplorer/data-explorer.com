@@ -50,7 +50,7 @@
         </p>
         <p>
             If you have a CSV file that isn't loading correctly, we recommend opening it in a spreadsheet application, like Microsoft Excel, and <a href="http://office.microsoft.com/en-us/excel-help/import-or-export-text-txt-or-csv-files-HP010099725.aspx#BMexport" target="blank">re-saving as a new CSV file.</a>
-            This will typically clean up the formatting anomolies, thus allowing you to import the CSV file.
+            This will typically clean up the formatting anomalies, thus allowing you to import the CSV file.
         </p>
         <br/>
         <h1>Have other questions?</h1>
