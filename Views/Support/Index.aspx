@@ -28,9 +28,7 @@
         </p>
         <p>If you need any additional help getting started, please email us at <a href="mailto:support@data-explorer.com">support@data-explorer.com</a></p>
     </article>
-    <br/>
     <hr/>
-    <br/>
     <article>
         <header>
             <h1>Frequently Asked Questions</h1>    
@@ -58,10 +56,8 @@
         <h1>Have other questions?</h1>
         <p>If you have any questions, please email them to <a href="mailto:support@data-explorer.com">support@data-explorer.com</a></p>
     </article>
-    <br/>
     <hr/>
-    <br/>
-        <article>
+    <article>
         <header>
             <h1>Issues</h1>    
         </header>

@@ -17,9 +17,7 @@
             With your help, we hope to create a community of like-minded individuals, with the purpose of increasing data literacy within our society.
         </p>        
     </article>
-    <br />
     <hr /> 
-    <br />
     <article>
         <header>
             <h1>Join Us</h1>    
@@ -55,9 +53,7 @@
             <p>Note: We will only use your contact info to send you one newsletter per month via email.  You can unsubscribe at any time.</p>
         </section>
     </article>
-    <br />
     <hr /> 
-    <br />
     <article>
         <header>
             <h1>Get Involved</h1>    

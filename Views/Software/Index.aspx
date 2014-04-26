@@ -17,9 +17,7 @@
         <iframe width="640" height="480" src="//www.youtube.com/embed/j-DdkkOg5Ck" frameborder="0" allowfullscreen>            
         </iframe>
     </article>
-    <br />
     <hr />
-    <br />
     <article>
         <header>
             <h1>Features</h1>    
@@ -82,9 +80,7 @@
             </ul> 
         </section>
     </article>
-    <br />
     <hr />
-    <br />
     <article class="center">
         <br />
         <a class="button" href="/software/download">Download Data Explorer Today!</a>

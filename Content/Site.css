@@ -88,13 +88,14 @@ nav
 {
     height: 56px;
     float: right;
-    vertical-align: text-bottom;
 }
 
 nav ul
 {
     list-style-type: none;
+    margin-top: 18px;
     padding: 0;
+    vertical-align: middle;
 }
 
 nav ul li
@@ -121,7 +122,9 @@ article
 {
     clear: both;
     display: block;
-    min-height: 96px;      
+    min-height: 96px;
+    padding-top: 16px;
+    padding-bottom: 16px;      
 }
 
 article.center 

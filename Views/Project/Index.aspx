@@ -18,9 +18,7 @@
             </ul>
         </p>
     </article>
-    <br/>
     <hr/>
-    <br/>
     <article>
         <header>
             <h1>Mission</h1>    
@@ -30,9 +28,7 @@
             Our hope is that this software, and it's community of like-minded individuals, will help increase data literacy within our society as a whole.
         </p>
     </article>
-    <br/>
     <hr/>
-    <br/>
      <article>
         <header>
             <h1>Project Status</h1>    
@@ -49,9 +45,7 @@
             The next release, v0.2.0, is scheduled for 07/01/2014
         </p>
     </article>
-    <br/>
     <hr/>
-    <br/>  
     <article>
         <header>
             <h1>Learn More</h1>    
