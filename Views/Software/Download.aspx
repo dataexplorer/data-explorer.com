@@ -13,16 +13,13 @@
             <h1>Download</h1>    
         </header>
         <p class="button">Data Explorer v0.1.0 &nbsp;<a class="button" href="javascript:download();" >Download</a></p>
-        <p>Please note that this software is still in development.  
+        <p>Please note that this software is still in development.</p>
             <ul>
-                <li>If you encounter a bug please email <a href="mailto:support@data-explorer.com">support@data-explorer.com</a>. </li> 
-                <li>If you would like to request a feature, please visit our <%: Html.ActionLink("feature request page", "request", "software") %>.</li>
+                <li>If you encounter a bug please report it through our <a href="https://github.com/dataexplorer/dataexplorer/issues" target="blank">issues list</a> or email <a href="mailto:support@data-explorer.com">support@data-explorer.com</a>.</li> 
+                <li>If you would like to request a feature, please email <a href="mailto:support@data-explorer.com">support@data-explorer.com</a>.</li>
             </ul>
-        </p>
     </article>
-    <br />
     <hr />
-    <br />
         <article>
         <header>
             <h1>System Requirements</h1>    
