@@ -37,12 +37,13 @@
             Below is the current status of the project:<br/>
 
             <ul>
-                <li><a href="https://github.com/dataexplorer/dataexplorer/releases/tag/v0.1.0" target="blank">04/01/2014 - v0.1.0 - Initial public release</a></li>
+                <li><a href="https://github.com/dataexplorer/dataexplorer/releases/tag/v0.1.0" target="blank">04/01/2014 - v0.1.0</a></li>
+                <li><a href="https://github.com/dataexplorer/dataexplorer/releases/tag/v0.2.0" target="blank">04/01/2014 - v0.2.0</a></li>
             </ul>
         </p>
         <br/>
         <p>
-            The next release, v0.2.0, is scheduled for 07/01/2014
+            The next release, v0.3.0, is scheduled for 06/01/2014
         </p>
     </article>
     <hr/>

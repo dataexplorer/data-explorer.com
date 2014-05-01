@@ -13,8 +13,18 @@
         </header>
         <p>Below are a few sample data sets you can use with Data Explorer.</p>
         <section>
+            <a href="/content/images/master-works-of-art.png">
+                <img class="thumbnail" src="/content/images/master-works-of-art-thumbnail.png" alt="Master Works of Art" />
+            </a>
+            <h2>Master Works of Art</h2>
+            <a href="/content/data/master-works-of-art-xml.zip">Data Explorer project file (.xml)</a>
+            <br />
+            <a href="/content/data/master-works-of-art-csv.zip">Source CSV data file (.csv)</a>
+        </section>
+        <hr/>
+        <section>
             <a href="/content/images/periodic-table.png">
-                <img class="thumbnail" src="/content/images/periodic-table-thumbnail.png" alt="Periodic table of elements" />
+                <img class="thumbnail" src="/content/images/periodic-table-thumbnail.png" alt="Periodic Table of Elements" />
             </a>
             <h2>Periodic Table of Elements</h2>
             <a href="/content/data/periodic-table-of-elements-xml.zip">Data Explorer project file (.xml)</a>
@@ -24,7 +34,7 @@
         <hr/>
         <section>
              <a href="/content/images/solar-system.png">
-                <img class="thumbnail" src="/content/images/solar-system-thumbnail.png" alt="The solar system" />
+                <img class="thumbnail" src="/content/images/solar-system-thumbnail.png" alt="The Solar System" />
             </a>
             <h2>The Solar System</h2>
             <a href="/content/data/solar-system-xml.zip">Data Explorer project file (.xml)</a>
@@ -34,7 +44,7 @@
         <hr/>
         <section>
              <a href="/content/images/standard-model.png">
-                <img class="thumbnail" src="/content/images/standard-model-thumbnail.png" alt="Standard model of particle physics" />
+                <img class="thumbnail" src="/content/images/standard-model-thumbnail.png" alt="Standard Model of Particle Physics" />
             </a>
             <h2>Standard Model of Particle Physics</h2>
             <a href="/content/data/standard-model-of-particle-physics-xml.zip">Data Explorer project file (.xml)</a>
