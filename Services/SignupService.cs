@@ -1,26 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using Website.Models;
+using Database = Website.Persistance.Database;
 
 namespace Website.Services
 {
     public class SignupService
     {
-        public void Save(SignupModel signup, string ipAddress)
+        public void Save(SignupModel signupModel, string ipAddress)
         {
-            var entities = new DataExplorerEntities();
-            var signupEntity = entities.Signups.Create();
-            signupEntity.FirstName = signup.FirstName;
-            signupEntity.LastName = signup.LastName;
-            signupEntity.Email = signup.Email;
-            signupEntity.Organization = signup.Organization ?? string.Empty;
-            signupEntity.Industry = signup.Industry ?? string.Empty;
-            signupEntity.IpAddress = ipAddress ?? string.Empty;
-            signupEntity.DateTime = DateTime.Now;
-            entities.Signups.Add(signupEntity);
-            entities.SaveChanges();
+            var database = new Database();
+
+            var signup = new Signup();
+
+            signup.FirstName = signupModel.FirstName;
+            signup.LastName = signupModel.LastName;
+            signup.Email = signupModel.Email;
+            signup.Organization = signupModel.Organization ?? string.Empty;
+            signup.Industry = signupModel.Industry ?? string.Empty;
+            signup.IpAddress = ipAddress ?? string.Empty;
+            signup.DateTime = DateTime.Now;
+            
+            database.Signups.Add(signup);
+            
+            database.SaveChanges();
         }
     }
 }

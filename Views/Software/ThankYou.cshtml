@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Data Explorer Download Thank You";
+    ViewBag.Description = "Data Explorer download thank you";
+    ViewBag.Keywords = "data explorer, open source, interactive, data visualization, data analysis, download";
+}
+
+<article>
+    <header>
+        <h1>Thank You</h1>
+    </header>
+    <p>
+        Thank you for downloading Data Explorer!
+    </p>
+    <p>
+        Please run the downloaded installer to install the data explorer application.
+        You may receive a security warning during the install process.
+        To get started using Data Explorer or for help with installation, please visit the following pages:
+    </p>
+    @Html.ActionLink("Getting Started", "Index", "support")
+    <br />
+    <br />
+    @Html.ActionLink("FAQ", "Index", "support")
+    <br />
+    <br />
+    <a href="https://groups.google.com/forum/#!forum/data-explorer" target="blank">Discussion Forums</a>
+    <br />
+    <br />
+</article>
